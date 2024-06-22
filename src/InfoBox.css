@@ -1,0 +1,46 @@
+.InfoBox {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.MuiCard-root {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.MuiCard-root:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.MuiTypography-root {
+    margin: 10px 0;
+}
+
+.weatherIcon {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.temperature {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.humidity,
+.minTemp,
+.maxTemp,
+.description {
+    font-size: 1em;
+    margin: 5px 0;
+}

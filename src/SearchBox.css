@@ -1,0 +1,12 @@
+.SearchBox {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.custom-textfield .MuiOutlinedInput-root {
+    background-color: white;
+}
+
+.custom-textfield .MuiOutlinedInput-notchedOutline {
+    border-color: black;
+}
