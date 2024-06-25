@@ -19,7 +19,7 @@ export default function InfoBox({ info }) {
                     <CardMedia
                         sx={{ height: 200 }}
                         image={
-                            info.humidity > 80 ? RAINY_URL
+                            info.humidity > 70 ? RAINY_URL
                             : (info.temp > 15) ? HOT_URL
                             : COLD_URL
                         }
@@ -28,7 +28,7 @@ export default function InfoBox({ info }) {
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             {info.city} 
-                            {info.humidity > 80 ? <ThunderstormIcon className="weatherIcon" /> 
+                            {info.humidity > 70 ? <ThunderstormIcon className="weatherIcon" /> 
                             : (info.temp > 15) ? <WbSunnyIcon className="weatherIcon" /> 
                             : <AcUnitIcon className="weatherIcon" />}
                         </Typography>
